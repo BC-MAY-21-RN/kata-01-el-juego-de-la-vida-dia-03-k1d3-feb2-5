@@ -52,8 +52,8 @@ class Matrixx {
       for (let i = 0; i < 5; i++) {
         let x = this.random(0, this.columns - 1);
         let y = this.random(0, this.rows - 1);
-        console.log("x: ",x," y: ",y);
-        matrix[x][y] = 'o';
+        //console.log("x: ",x," y: ",y);
+        matrix[y][x] = '*';
       }
       return matrix;
     }
